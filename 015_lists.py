@@ -1,9 +1,13 @@
 numbers = [5, 66, 83, 22, 1, 23, 11]
 
-for number in numbers:
-    print(number)
+# for number in numbers:
+#     print(number)
 
+# you can store a list with other data types if you really wanted to.
 my_other_list = ["Hello", True, False, 3.14, 12, (1, 2, 3)]
+
+print(my_other_list[0])  # prints Hello
+print(my_other_list[-1])  # prints last item on the list
 
 for stuff in my_other_list:
     print(stuff)
